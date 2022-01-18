@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(233, 221, 221);
+}
+.first{
+    width: 100%;
+    height: 35vh;
+    background-image: url(pictures/4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    opacity: 0.8;  
+}
+.about{
+    width: 70%;
+    margin: auto;
+    height: 66vh;
+    transform: translateY(-39px);
+    background-color: rgb(233, 221, 221);
+    text-align: center;
+}
+.about h1{
+    word-spacing: 5px;
+    font-size: 6vh;
+    margin-top: 2vh;
+    font-family: 'DM Serif Text', serif;
+    font-weight: lighter;
+}
+.about p{
+    margin-top: 8vh;
+    font-size: 3vh;
+    font-family: 'Sanchez', serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: normal;
+}
+.about .content{
+    color: rgb(155, 11, 11);
+}
+.second{
+    height: 26vh;
+    width: 100%;
+    background-image: url(pictures/5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.second h1{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    margin-top: 4rem;
+    font-size: 33px;
+    font-family: 'DM Serif Text', serif;
+    letter-spacing: 2px;
+}
+
+/*--------------------------------------third section---------------------------------*/
+.third{
+    margin: 2rem auto;
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+}
+.third-a{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pic,.con{
+    height: 90%;
+    width: 35vw;
+    margin: auto;
+}
+#pic-a{
+    background-image: url(pictures/7.jpg);
+}
+#pic-b{
+    background-image: url(pictures/8.jpg);
+}
+#pic-c{
+    background-image: url(pictures/9.jpg);
+}
+#pic-d{
+    background-image: url(pictures/10.jpg);
+}
+.con{
+    text-align: left;
+    font-family: 'Patua One', cursive;
+    font-size: 20px; 
+    word-spacing: 7px;
+    letter-spacing: 1px;
+    color: rgb(61, 59, 59);
+    text-align: left;
+}
+.con h1{
+    margin-bottom: 2vh;
+    color: rgb(41, 53, 94);
+}
+span{
+    color: rgb(236, 34, 34);
+    
+}
+/*--------------------------------------fourth section---------------------------------*/
+.fourth{
+    background-image: url(pictures/11.jpg);
+    width: 100%;
+    height: 40vh;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.fourth h1{
+    margin: 5vh auto;
+    font-family: 'DM Serif Text', serif;
+    letter-spacing: 1px;
+    font-size: 2.7rem;
+}
+.get-in{
+    height: 8vh;
+    width: 28rem;
+    margin: auto;
+    background-color: rgb(41, 53, 94);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3vh;
+}
+.get-in:hover{
+    background-color: rgb(117, 116, 10);
+}
+.get-in .text{
+    text-decoration:none;
+    color: white;
+    font-weight: bolder;
+    font-size: 28px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.hr{
+    margin-top: 2vh;
+    height: 1vh;
+    width: 100%;
+    background-color: rgb(41, 53, 94);
+}
+
+.footer{
+    margin-top: 3vh;
+    overflow-y: hidden;
+    
+}
+
+.last{
+    width: 98.9vw;
+    height: 38vh;
+    margin: auto;
+    background: rgb(233, 221, 221);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+}
+
+.last1{
+ width: 30%;
+ height: 100%;
+ color: rgb(36, 34, 34);
+ font-size: 1.8vh;
+}
+
+#logo{
+    padding-top: 5vh;
+    font-weight: bolder;
+    font-size: 18px;
+}
+#contact{
+    padding-top: 4vh;
+}
+#contact .us{
+   text-align: center;
+    font-size: 4vh;
+    font-weight: bold;
+    color: rgb(36, 34, 34);
+    padding-bottom: 4vh;
+}
+#contact .fa{
+    margin-right: 8px;
+    font-size: 3vh;
+    height: 4vh;
+    width: 40px;
+    text-align: center;
+    margin-left: 5vw;
+}
+#contact .fa:hover{
+    transform: translateY(-5px);
+}
+
+#register .urself{
+    text-align: center;
+    font-size: 4vh;
+    padding-top: 3vh;
+}
+.last1 .urself{
+    margin-left: 2rem;
+    font-size: 6vh;
+    margin-bottom: 4vh;
+}
+.btn-success{
+    padding: 8px;
+    height: 10vh;
+    width: 54vw;
+    margin-top: 3vh;
+    margin-left: 12vw;
+    background-color: rgb(41, 53, 94);
+    color: white;
+    font-size: 23px;
+    font-family: 'Patua One', cursive;
+    border-radius: 10px;
+}
+.last1 .btn-success{
+    text-decoration: none;
+}
+.btn-success:hover{
+    transform: translateY(-6px);
+    background-color: rgb(17, 119, 26);
+}
+.copy{
+    padding-top: 5vh;
+    padding-left: 11vw;
+}
